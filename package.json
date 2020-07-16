@@ -1,0 +1,18 @@
+{
+  "name": "pikobot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "knex": "^0.21.2",
+    "koreanbots": "^1.1.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev:watch": "nodemon --exec node src"
+  }
+}

@@ -1,0 +1,1 @@
+module.exports.embed = require('./embed')
